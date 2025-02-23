@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Cor: RGB e CMYK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Modelos de Cor: RGB e CMYK</h1>
+        
+        <h2>Modelo Aditivo (RGB)</h2>
+        <p>O modelo RGB (Red, Green, Blue) é um sistema de cores aditivo usado em telas digitais. Cada pixel contém subpixels de vermelho, verde e azul. Ajustando a intensidade de cada cor, criamos diversas cores.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RGB_illumination.jpg/300px-RGB_illumination.jpg" alt="Exemplo de modelo RGB">
+        <p>Quando todas as cores são combinadas na intensidade máxima, obtemos branco. Já a ausência de luz resulta na cor preta.</p>
+        
+        <h2>Modelo Subtrativo (CMYK)</h2>
+        <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é usado na impressão. Ele funciona subtraindo luz refletida no papel. A cor preta (K) é adicionada para melhorar contraste e economizar tinta.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CMYK_color_model.png/300px-CMYK_color_model.png" alt="Exemplo de modelo CMYK">
+        
+        <h2>Comparação entre RGB e CMYK</h2>
+        <p>O RGB é utilizado para telas, pois depende da luz para formar cores, enquanto o CMYK é ideal para impressão, pois depende da absorção de pigmentos.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/RGB_vs_CMYK.svg/300px-RGB_vs_CMYK.svg.png" alt="Comparação RGB vs CMYK">
+        
+        <h2>Conclusão</h2>
+        <p>Os modelos RGB e CMYK são fundamentais para diferentes aplicações. RGB é ideal para telas digitais, enquanto CMYK é essencial para impressões precisas.</p>
+    </div>
+</body>
+</html>
