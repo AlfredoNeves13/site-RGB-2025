@@ -7,25 +7,29 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            background-color: #ececec;
+            margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
         }
         .container {
             max-width: 800px;
-            margin: auto;
-            background: white;
+            background: #fff;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #222;
+        }
+        p {
+            line-height: 1.6;
         }
         img {
             max-width: 100%;
             display: block;
-            margin: 10px auto;
+            margin: 15px auto;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -33,21 +37,20 @@
     <div class="container">
         <h1>Modelos de Cor: RGB e CMYK</h1>
         
-        <h2>Modelo Aditivo (RGB)</h2>
-        <p>O modelo RGB (Red, Green, Blue) é um sistema de cores aditivo usado em telas digitais. Cada pixel contém subpixels de vermelho, verde e azul. Ajustando a intensidade de cada cor, criamos diversas cores.</p>
+        <h2>O que é RGB?</h2>
+        <p>O modelo RGB (Red, Green, Blue) é usado em telas digitais. Ele combina luzes vermelha, verde e azul para formar cores. Quando todas estão no máximo, o resultado é branco; quando estão apagadas, temos preto.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RGB_illumination.jpg/300px-RGB_illumination.jpg" alt="Exemplo de modelo RGB">
-        <p>Quando todas as cores são combinadas na intensidade máxima, obtemos branco. Já a ausência de luz resulta na cor preta.</p>
         
-        <h2>Modelo Subtrativo (CMYK)</h2>
-        <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é usado na impressão. Ele funciona subtraindo luz refletida no papel. A cor preta (K) é adicionada para melhorar contraste e economizar tinta.</p>
+        <h2>O que é CMYK?</h2>
+        <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é utilizado na impressão. Diferente do RGB, ele não usa luz, mas tinta. As cores se formam pela absorção de luz no papel.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CMYK_color_model.png/300px-CMYK_color_model.png" alt="Exemplo de modelo CMYK">
         
-        <h2>Comparação entre RGB e CMYK</h2>
-        <p>O RGB é utilizado para telas, pois depende da luz para formar cores, enquanto o CMYK é ideal para impressão, pois depende da absorção de pigmentos.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/RGB_vs_CMYK.svg/300px-RGB_vs_CMYK.svg.png" alt="Comparação RGB vs CMYK">
+        <h2>RGB vs. CMYK</h2>
+        <p>O RGB é ideal para telas, pois usa luz para criar cores vibrantes. Já o CMYK é melhor para impressão, pois usa pigmentos para gerar cores mais fiéis no papel.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/RGB_vs_CMYK.svg/300px-RGB_vs_CMYK.svg.png" alt="Comparação entre RGB e CMYK">
         
         <h2>Conclusão</h2>
-        <p>Os modelos RGB e CMYK são fundamentais para diferentes aplicações. RGB é ideal para telas digitais, enquanto CMYK é essencial para impressões precisas.</p>
+        <p>Ambos os modelos de cor são essenciais, cada um para seu propósito. O RGB brilha nas telas, enquanto o CMYK garante qualidade na impressão.</p>
     </div>
 </body>
 </html>
